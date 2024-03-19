@@ -1,0 +1,202 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: "Nunito", sans-serif;
+}
+
+body {
+   background: url("https://source.unsplash.com/1920x1080/?galaxy");
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center center;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 100vh;
+}
+
+.container {
+   background-color: #FFFFFF;
+   border-radius: 10px;
+   padding: 65px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+.buttons {
+   margin: 25px 0;
+   display: flex;
+   gap: 20px;
+}
+
+button {
+   padding: 5px;
+   font-size: 60px;
+   border-radius: 10px;
+   border: none;
+   cursor: pointer;
+   transition: opacity 0.5s ease-in-out;
+}
+
+button:hover {
+   opacity: 0.8;
+}
+
+
+
+#rock {
+   background-color: rgba(0, 0, 253, 0.767);
+}
+
+#paper {
+   margin: 0 5px 0 5px;
+   background-color: rgba(245, 200, 0, 0.911);
+}
+
+#scissors {
+   background-color: rgb(42, 216, 8);
+}
+
+p {
+   font-weight: bold;
+   margin-bottom: 10px;
+}
+
+.my-score span {
+   color: rgb(47, 173, 47);
+}
+
+.bot-score span {
+   color: rgb(54, 54, 214);
+
+}
+
+.nico-dialogue span {
+   color: rgb(54, 54, 214);
+}
+
+.nico-dialogue:not(:first-child) {
+   color: #A200FF;
+}
+
+.nico-dialogue:first-child {
+   color: black;
+}
+
+.nico-dialogue:not(:first-child):before {
+   content: "Nico: ";
+   color: black;
+}
+
+@media screen and (max-width: 830px) {
+
+   .container {
+      padding: 33px;
+   }
+
+
+}
+
+@media screen and (max-width: 545px) {
+
+   .container {
+      padding: 20px;
+   }
+
+
+
+h1 {
+   font-size: 25px;
+}
+
+button {
+   font-size: 42px;
+}
+}
+
+@media screen and (max-width: 400px) {
+
+   h1 {
+      font-size: 24px;
+   }
+
+
+
+h3 {
+   font-size: 15px;
+}
+
+button {
+   font-size: 43px;
+}
+}
+
+@media screen and (max-width: 319px){
+
+h1 {
+   font-size: 20px;
+}
+
+h3 {
+   font-size: 15px;
+}
+
+button {
+   font-size: 33px;
+}
+
+.nico-dialogue {
+   font-size: 13px;
+}
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
