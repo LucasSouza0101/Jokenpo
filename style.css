@@ -6,7 +6,7 @@
 }
 
 body {
-   background: url("https://source.unsplash.com/1920x1080/?galaxy");
+   background: url("https://picsum.photos/1920/1080");
    background-size: cover;
    background-repeat: no-repeat;
    background-position: center center;
@@ -17,8 +17,9 @@ body {
 }
 
 .container {
-   background-color: #FFFFFF;
-   border-radius: 10px;
+   background-color: rgba(128, 128, 128, 0.6);
+   backdrop-filter: blur(10px);
+   border-radius: 20px;
    padding: 65px;
    display: flex;
    flex-direction: column;
@@ -75,7 +76,7 @@ p {
 }
 
 .nico-dialogue span {
-   color: rgb(54, 54, 214);
+   color: rgb(25, 25, 218);
 }
 
 .nico-dialogue:not(:first-child) {
@@ -151,11 +152,6 @@ button {
 .nico-dialogue {
    font-size: 13px;
 }
-
-
-
-
-
 
 
 }
